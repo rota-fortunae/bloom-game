@@ -1,0 +1,27 @@
+theme: regression = rebirth (purity?)
+
+collectables 
+- pencil case (?)
+- notebook with scribles
+- rusting metal ruler
+- grade transcript 
+
+common app:
+- profile
+- family
+- education 
+- testing
+- activities and experiences
+- writing
+- courses and grades 
+
+four stages
+window room system
+WASD or arrow keys
+tilesets with slight modifications for each stage? 
+
+puzzles:
+- buttons
+- switches
+- move blocks?
+- light & shadow manipulation 

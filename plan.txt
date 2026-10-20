@@ -19,9 +19,10 @@ four stages
 window room system
 WASD or arrow keys
 tilesets with slight modifications for each stage? 
+top-down movement -> https://www.youtube.com/watch?v=-4jEXTwTsVI
 
 puzzles:
 - buttons
 - switches
 - move blocks?
-- light & shadow manipulation 
+- light & shadow manipulation -> knowing which passage connects to which room 

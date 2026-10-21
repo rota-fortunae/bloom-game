@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cxb1h6v3lgovy"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_ip871"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ip871"]
+size = Vector2(9, 3)
+
+[node name="Area2D" type="Area2D" unique_id=2142669874]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="." unique_id=430473060]
+position = Vector2(71.125, 37.125)
+scale = Vector2(9.750002, 3.7499938)
+mesh = SubResource("BoxMesh_ip871")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=896471868]
+position = Vector2(71, 37)
+shape = SubResource("RectangleShape2D_ip871")

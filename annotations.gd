@@ -1,6 +1,11 @@
+STILL HAVE TO ADD:
+	SFX VERY IMPORTANT FOR HORROR GAME AMBIANCE
+	blocking objects (desk, plant, ect)
+	draw collectables and cutscene things
+
 room size:
 	main 364x630
-	one 143x175)x3
+	one (143x175)x3
 	two 768x423
 	three 480x128
 	four 963x720

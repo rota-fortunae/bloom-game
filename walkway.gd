@@ -17,6 +17,7 @@ func _process(delta: float) -> void:
 func _on_body_entered(body: Node2D) -> void:
 	if body is Player:
 		current_player.active = false
+		new_player.get_parent().visible=true
 		new_player.active = true
 		new_player.position = teleportLocation
 		print("new player")

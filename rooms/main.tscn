@@ -29,9 +29,9 @@ new_player = NodePath("../RoomTwo/R2")
 [node name="Area2D2" parent="." unique_id=1008594002 node_paths=PackedStringArray("current_player", "new_player") instance=ExtResource("3_javsm")]
 position = Vector2(288, 120.00001)
 rotation = 1.5529438
-teleportLocation = Vector2(13, 152)
+teleportLocation = Vector2(8, 39)
 current_player = NodePath("../Player")
-new_player = NodePath("../RoomFour/R4")
+new_player = NodePath("../RoomThree/R3")
 
 [node name="RoomOne" type="Window" parent="." unique_id=454719166]
 oversampling_override = 1.0
@@ -46,10 +46,31 @@ content_scale_factor = 3.0
 position = Vector2(41, 48.666668)
 active = false
 
+[node name="Area2D" parent="RoomOne" unique_id=1130700318 node_paths=PackedStringArray("current_player", "new_player") instance=ExtResource("3_javsm")]
+position = Vector2(175.66666, 56.33333)
+rotation = 1.5718081
+teleportLocation = Vector2(10, 152)
+current_player = NodePath("../R1")
+new_player = NodePath("../../RoomFour/R4")
+
+[node name="Area2D3" parent="RoomOne" unique_id=780670750 node_paths=PackedStringArray("current_player", "new_player") instance=ExtResource("3_javsm")]
+position = Vector2(0, 40.333336)
+rotation = 1.5487249
+teleportLocation = Vector2(121, 71)
+current_player = NodePath("../R1")
+new_player = NodePath("../../RoomThree/R3")
+
+[node name="Area2D2" parent="RoomOne" unique_id=190371608 node_paths=PackedStringArray("current_player", "new_player") instance=ExtResource("3_javsm")]
+position = Vector2(56, 144.00002)
+teleportLocation = Vector2(120, 7)
+current_player = NodePath("../R1")
+new_player = NodePath("../../RoomTwo/R2")
+
 [node name="RoomTwo" type="Window" parent="." unique_id=125280527]
 oversampling_override = 1.0
 position = Vector2i(300, 36)
 size = Vector2i(768, 432)
+visible = false
 content_scale_factor = 3.0
 
 [node name="RoomTwo" parent="RoomTwo" unique_id=735318172 instance=ExtResource("5_vb34l")]
@@ -65,6 +86,12 @@ teleportLocation = Vector2(12, 73)
 current_player = NodePath("../R2")
 new_player = NodePath("../../Player")
 
+[node name="Area2D2" parent="RoomTwo" unique_id=1139889860 node_paths=PackedStringArray("current_player", "new_player") instance=ExtResource("3_javsm")]
+position = Vector2(120.333336, -0.33333334)
+teleportLocation = Vector2(56, 135)
+current_player = NodePath("../R2")
+new_player = NodePath("../../RoomOne/R1")
+
 [node name="RoomThree" type="Window" parent="." unique_id=1143045360]
 oversampling_override = 1.0
 position = Vector2i(0, 36)
@@ -78,10 +105,25 @@ content_scale_factor = 3.0
 position = Vector2(29.666668, 66.66667)
 active = false
 
+[node name="Area2D" parent="RoomThree" unique_id=1723287251 node_paths=PackedStringArray("current_player", "new_player") instance=ExtResource("3_javsm")]
+position = Vector2(0.3333333, 39.999996)
+rotation = 1.5676122
+teleportLocation = Vector2(274, 121)
+current_player = NodePath("../R3")
+new_player = NodePath("../../Player")
+
+[node name="Area2D2" parent="RoomThree" unique_id=668565058 node_paths=PackedStringArray("current_player", "new_player") instance=ExtResource("3_javsm")]
+position = Vector2(128.33333, 72.333336)
+rotation = 1.5764893
+teleportLocation = Vector2(8, 40)
+current_player = NodePath("../R3")
+new_player = NodePath("../../RoomOne/R1")
+
 [node name="RoomFour" type="Window" parent="." unique_id=1956901245]
 oversampling_override = 1.0
 position = Vector2i(0, 36)
 size = Vector2i(963, 720)
+visible = false
 content_scale_factor = 3.0
 
 [node name="RoomFour" parent="RoomFour" unique_id=1749550404 instance=ExtResource("7_tsj5d")]
@@ -89,6 +131,19 @@ content_scale_factor = 3.0
 [node name="R4" parent="RoomFour" unique_id=346870788 instance=ExtResource("2_n11ol")]
 position = Vector2(76.66667, 162)
 active = false
+
+[node name="Area2D2" parent="RoomFour" unique_id=2024507032 node_paths=PackedStringArray("current_player", "new_player") instance=ExtResource("3_javsm")]
+position = Vector2(-0.33333206, 151.66666)
+rotation = 1.5851424
+teleportLocation = Vector2(167, 56)
+current_player = NodePath("../R4")
+new_player = NodePath("../../RoomOne/R1")
+
+[node name="Area2D" parent="RoomFour" unique_id=1470216904 node_paths=PackedStringArray("current_player", "new_player") instance=ExtResource("3_javsm")]
+position = Vector2(296, -0.66666603)
+teleportLocation = Vector2(40, 86)
+current_player = NodePath("../R4")
+new_player = NodePath("../../RoomFive/R5")
 
 [node name="RoomFive" type="Window" parent="." unique_id=1639826527]
 oversampling_override = 1.0
@@ -102,3 +157,9 @@ content_scale_factor = 3.0
 [node name="R5" parent="RoomFive" unique_id=173280678 instance=ExtResource("2_n11ol")]
 position = Vector2(40, 74.333336)
 active = false
+
+[node name="Area2D" parent="RoomFive" unique_id=1259626782 node_paths=PackedStringArray("current_player", "new_player") instance=ExtResource("3_javsm")]
+position = Vector2(40.333336, 96)
+teleportLocation = Vector2(295, 8)
+current_player = NodePath("../R5")
+new_player = NodePath("../../RoomFour/R4")

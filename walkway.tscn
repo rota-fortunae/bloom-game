@@ -2,21 +2,15 @@
 
 [ext_resource type="Script" uid="uid://d8gg0o6788tl" path="res://walkway.gd" id="1_6tsju"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_ip871"]
-
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ip871"]
-size = Vector2(9, 3)
+size = Vector2(16, 2)
 
 [node name="Area2D" type="Area2D" unique_id=2142669874]
 script = ExtResource("1_6tsju")
 
-[node name="MeshInstance2D" type="MeshInstance2D" parent="." unique_id=430473060]
-position = Vector2(71.125, 37.125)
-scale = Vector2(9.750002, 3.7499938)
-mesh = SubResource("BoxMesh_ip871")
-
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=896471868]
-position = Vector2(71, 37)
+position = Vector2(-5.7458878e-05, 0.0015825153)
+rotation = 0.006331432
 shape = SubResource("RectangleShape2D_ip871")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

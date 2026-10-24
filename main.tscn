@@ -25,7 +25,6 @@ current_player = NodePath("../Player")
 oversampling_override = 1.0
 position = Vector2i(0, 36)
 size = Vector2i(528, 431)
-visible = false
 content_scale_factor = 3.0
 
 [node name="RoomOne" parent="RoomOne" unique_id=1156192023 instance=ExtResource("4_lquwl")]
@@ -34,7 +33,6 @@ content_scale_factor = 3.0
 oversampling_override = 1.0
 position = Vector2i(0, 36)
 size = Vector2i(768, 432)
-visible = false
 content_scale_factor = 3.0
 
 [node name="RoomTwo" parent="RoomTwo" unique_id=735318172 instance=ExtResource("5_5vw27")]
@@ -43,7 +41,6 @@ content_scale_factor = 3.0
 oversampling_override = 1.0
 position = Vector2i(0, 36)
 size = Vector2i(384, 480)
-visible = false
 content_scale_factor = 3.0
 
 [node name="RoomThree" parent="RoomThree" unique_id=1815296147 instance=ExtResource("6_kek77")]
@@ -52,7 +49,6 @@ content_scale_factor = 3.0
 oversampling_override = 1.0
 position = Vector2i(0, 36)
 size = Vector2i(963, 720)
-visible = false
 content_scale_factor = 3.0
 
 [node name="RoomFour" parent="RoomFour" unique_id=1749550404 instance=ExtResource("7_4c57u")]
@@ -61,7 +57,6 @@ content_scale_factor = 3.0
 oversampling_override = 1.0
 position = Vector2i(0, 36)
 size = Vector2i(240, 288)
-visible = false
 content_scale_factor = 3.0
 
 [node name="RoomFive" parent="RoomFive" unique_id=799982895 instance=ExtResource("8_efxa6")]
